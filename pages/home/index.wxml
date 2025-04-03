@@ -2,7 +2,7 @@
 <view class="home-container">
   <view class="home-content">
     <t-tabs defaultValue="recommend">
-      <t-tab-panel label="ABC" value="recommend">
+      <t-tab-panel label="推荐" value="recommend">
         <t-pull-down-refresh
           value="{{enable}}"
           bind:refresh="onRefresh"
